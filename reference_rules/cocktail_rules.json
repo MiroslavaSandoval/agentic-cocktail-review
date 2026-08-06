@@ -1,0 +1,33 @@
+{
+  "general": {
+    "minimum_ingredients": 2,
+    "minimum_instruction_steps": 1,
+    "allowed_units": [
+      "oz",
+      "ml",
+      "cl",
+      "dash",
+      "dashes",
+      "barspoon",
+      "teaspoon",
+      "tablespoon",
+      "cup",
+      "piece",
+      "slice",
+      "wedge",
+      "leaf",
+      "leaves"
+    ]
+  },
+  "techniques": {
+    "shaken": {
+      "description": "Ingredients are shaken with ice before straining."
+    },
+    "stirred": {
+      "description": "Ingredients are stirred with ice before straining."
+    },
+    "built": {
+      "description": "Ingredients are assembled directly in the serving glass."
+    }
+  }
+}
